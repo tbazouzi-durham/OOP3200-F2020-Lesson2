@@ -3,8 +3,8 @@
  *	In this example program, did the following:
  *		- Examined a simple class with 'instance' data-members, a constructor, accessors, mutators.
  *
- *	@author		<YOUR-NAME>
- *	@studentID  <YOUR STUDENT ID>
+ *	@author		Taylor Bazouzi
+ *	@studentID  100579090
 */
 
 #include <iostream> 		// cin, cout
@@ -66,6 +66,9 @@ int main()
 	int inputY; // temporary input variable for y
 	// to store the distance between two points
 
+	// double myDouble = ConsoleInput::ReadDouble();
+
+
 	try
 	{
 		// Input
@@ -76,11 +79,8 @@ int main()
 		cout << "X: ";
 
 
-
 		// prompt for, read, and store y coordinate:
 		cout << "Y: ";
-
-
 
 		// Processing
 		// determine the distance between the two points
